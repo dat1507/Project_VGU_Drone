@@ -1,0 +1,27 @@
+id: warehouse
+state: configured
+sdf: simulation_checks/task2_x500_uri/sparse_world.x500_test.sdf
+world_name: warehouse_world
+vehicle_name: x500
+vehicle_uri: model://x500
+floor_model: white_floor
+frame: ENU
+physical_xy_bounds: [[-14.9, -11.9], [14.9, 11.9]]
+cruise_z: [1.0, 3.2]
+radius_m: 0.60
+margin_m: 0.25
+demo_height_m: 2.5
+demo_east_m: 0.5
+max_relative_height_m: 3.2
+start_enu: null
+goal_enu: null
+output_root: outputs_c2/warehouse
+px4_root: ~/PX4-Autopilot
+ros_setup: /opt/ros/jazzy/setup.bash
+px4_ros_setup: ~/ros2_px4_ws/install/setup.bash
+qgc: ~/Downloads/QGroundControl-x86_64.AppImage
+instance: 0
+airframe: 4001
+namespace: ''
+dds_domain: 0
+agent_port: 8888

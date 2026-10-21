@@ -1,0 +1,43 @@
+# Local environments, credentials and agent metadata
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+.agent*probe*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Generated ROS, PX4, Gazebo and experiment artifacts
+build/
+install/
+log/
+logs/
+.gz/
+.ignition/
+results/
+pso_flight_demo/outputs*/
+pso_flight_demo/sessions/
+runs/
+*.ulg
+*.bag
+*.db3
+*.mp4
+*.avi
+*.mkv
+core
+core.*
+*.tmp
+*.swp
+# Archived local simulator investigations (preserved on disk)
+simulation_checks/**/*.log
+simulation_checks/**/*.sdf.bak
+simulation_checks/task3_attach_runtime_backup/
+simulation_checks/task3_landing_observation/
